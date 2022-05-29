@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(98, 163, 2);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.againBtn {
+  padding: 5px 10px;
+  margin: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inputVal:focus {
+  border: none;
+  outline: none;
+}

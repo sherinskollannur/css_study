@@ -99,8 +99,8 @@ body {
   background-position: top right;
   background-attachment: scroll;
   height: 50%;
-  width: 50%;
-  background-image: url('https://th.bing.com/th/id/OIP.mQhIxcuk1i4wbhWEGYikngHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.75&pid=1.7');
+
+  /* background-image: url('https://th.bing.com/th/id/OIP.mQhIxcuk1i4wbhWEGYikngHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.75&pid=1.7'); */
 }
 
 .service {
@@ -168,7 +168,7 @@ a {
   padding: 20px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .container-item {

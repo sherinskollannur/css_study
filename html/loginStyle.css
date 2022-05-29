@@ -1,0 +1,21 @@
+:root {
+  --bgColor: violet;
+}
+
+div {
+  --bgColor: yellow;
+  --txtColor: white;
+  max-width: 600px;
+  min-width: 200px;
+  min-height: 100px;
+  background-color: var(--bgColor);
+  position: sticky;
+  top: 0;
+  color: var(--txtColor);
+}
+
+body {
+  height: 900px;
+  background-color: var(--bgColor);
+  color: var(--txtColor);
+}
