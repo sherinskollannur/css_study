@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+}
+
+/* 
+if  flex-direction: row then  justify-content treat as horizontal align and align-item treat as vertical align */
+
+/*
+if  flex-direction: column then  justify-content treat as vertical align and align-item treat as horizontal align */
+
+/* justify-content:flex-start
+justify-content:flex-end
+justify-content:center
+justify-content:space-between
+justify-content:space-around
+justify-content:space-evenly */
+
+/* align-items:center
+align-items:flex-start
+align-items:flex-end
+align-items:baseline
+align-items:stretch */
+
+/* flex is one dimensional */
+
+/* flex-wrap:wrap    if it touch on that screen it comes down
+flex-wrap:nowrap  if it touch on that screen it squeez */
+
+.one,
+.two,
+.three {
+  /* flex: 1; */
+  /* if use flex here hide width and justify and align-item */
+  background-color: coral;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border: 1px white solid;
+}
+
+.two {
+  flex: 2;
+}
